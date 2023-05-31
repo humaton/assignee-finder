@@ -3,8 +3,10 @@
 # General section
 [General]
 usernames = [  # List of usernames you want to find
-  "user1",
-  "user2"
+  "humaton",
+  "Zlopez",
+  "amedvede",
+  "patrikp"
 ]
 
 # Pagure section
@@ -16,14 +18,14 @@ excludes = [  # List of repositories to exclude, it will be matched against the 
   "https://pagure.io/test2"
 ]
 repositories = [  # List of repositories to look for closed issues/pull requests
-  "https://pagure.io/pagure",
-  "https://pagure.io/test"
+  "https://pagure.io/releng",
+  "https://pagure.io/fedora-infrastructure"
 ]
 
 # Mapping of usernames from general section to pagure usernames
 [Pagure.usernames]
-user1 = "pagure_user1"
-user2 = "pagure_user2"
+#user1 = "pagure_user1"
+#user2 = "pagure_user2"
 
 # GitHub section
 [GitHub]
@@ -36,8 +38,8 @@ excludes = [  # List of repositories to exclude, it will be matched against the 
   "https://github.com/test2"
 ]
 repositories = [  # List of repositories to look for closed issues/pull requests
-  "https://github.com/test3",
-  "https://github.com/test4"
+  "https://github.com/bodhi",
+  "https://github.com/fedora-infra"
 ]
 
 # Mapping of usernames from general section to GitHub usernames
